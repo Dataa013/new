@@ -521,9 +521,7 @@
 
 
    &__content {
-            @media (max-width:375px) {
-         padding-top: 40px;
-      }
+      
       &-subtitle {
          font-size: 25px;
          color: $white;
@@ -629,7 +627,9 @@
 
          }
       }
-
+      @media (max-width:375px) {
+         padding-top: 40px;
+      }
    }
 
 
