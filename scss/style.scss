@@ -388,10 +388,6 @@
 
 .home {
    position: relative;
-   
-     @media (max-width:375px) {
-         padding-top: 40px;
-      }
 
    &__inner {
 
@@ -525,7 +521,7 @@
 
 
    &__content {
-      
+     
       &-subtitle {
          font-size: 25px;
          color: $white;
@@ -631,7 +627,11 @@
 
          }
       }
-    
+
+      @media (max-width:375px) {
+         padding-top: 40px;
+      }
+
    }
 
 
