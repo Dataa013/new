@@ -1,0 +1,48 @@
+body {
+    background: #111;
+    overflow-x: hidden;
+    padding-left: 35rem;
+    color: $white;
+
+    &.no-scroll {
+        overflow-y: hidden;
+    }
+
+
+}
+
+
+
+
+section {
+    min-height: 100vh;
+    padding: 1rem;
+
+}
+
+
+
+
+*,
+*:before,
+*:after {
+
+    font-family: 'Nunito', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    outline: none;
+    border: none;
+    // text-transform: capitalize;
+    // transition: all .2s linear;
+
+}
+
+
+html {
+    font-size: 62.5%;
+    // overflow-x: hidden;
+}
