@@ -388,6 +388,10 @@
 
 .home {
    position: relative;
+   
+     @media (max-width:375px) {
+         padding-top: 40px;
+      }
 
    &__inner {
 
@@ -627,9 +631,7 @@
 
          }
       }
-      @media (max-width:375px) {
-         padding-top: 40px;
-      }
+    
    }
 
 
