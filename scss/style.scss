@@ -900,10 +900,16 @@
 
         
 
-         @media (max-width: 580px) {
-            width: 100%;
+//          @media (max-width: 580px) {
+//             display: flex;
+//             width: 100%;
+//          }
+         
+         @media (max-width: 579px){
             display: flex;
+            width: 100%;
          }
+
 
       }
 
