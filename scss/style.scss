@@ -893,10 +893,7 @@
          flex-wrap: wrap;
       }
 
-
-     
-
-      &-row {
+ &-row {
          flex-wrap: wrap;
          display: flex;
          display: grid;
@@ -916,14 +913,8 @@
             display: flex;
          }
 
-         @media (max-width: 325px) {
-            // width: 100%;
-         }
-
-
-
-
       }
+    
 
 
 
